@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
    },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'Thor\s grill',
     }),
   ],
    output: {
