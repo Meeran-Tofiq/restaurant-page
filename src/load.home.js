@@ -19,6 +19,7 @@ function loadHomePage() {
 
     logoDiv.setAttribute("class", "logo");
     nav.setAttribute("class", "nav");
+    settings.setAttribute("class", "settings");
     mainDiv.setAttribute("class", "main");
     imgContainerDiv.setAttribute("class", "img-container");
     imgGrill.setAttribute("src", "../src/img/grill.jpg");
