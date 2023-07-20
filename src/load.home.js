@@ -18,6 +18,7 @@ function loadHomePage() {
 
     logoDiv.setAttribute("class", "logo");
     nav.setAttribute("class", "nav");
+    mainDiv.setAttribute("class", "main");
     imgContainerDiv.setAttribute("class", "img-container");
     imgGrill.setAttribute("src", "../src/img/grill.jpg");
     imgGrill.setAttribute("alt", "Picture of a grill, with a lot of grilled food on top of it.");
