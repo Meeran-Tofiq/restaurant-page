@@ -19,6 +19,9 @@ function loadHomePage() {
 
     logoDiv.setAttribute("class", "logo");
     nav.setAttribute("class", "nav");
+    navHome.classList.add('home-nav');
+    navRecipes.classList.add('recipes-nav');
+    navAbout.classList.add('about-nav');
     settings.setAttribute("class", "settings");
     mainDiv.setAttribute("class", "main");
     imgContainerDiv.setAttribute("class", "img-container");

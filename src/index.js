@@ -2,3 +2,24 @@ import loadHomePage from "./load.home";
 import './styles.css';
 
 loadHomePage();
+
+
+const homeB = document.querySelector(".home-nav");
+const recipesB = document.querySelector(".recipes-nav");
+const aboutB = document.querySelector(".about-nav");
+const navList = [homeB, recipesB, aboutB];
+
+homeB.classList.add('selected');
+
+const unSelectPages = () => {
+    navList.forEach(element => {
+        element.classList.remove('selected');
+    });
+};
+
+navList.forEach(element => {
+    element.addEventListener('click', () => {
+        unSelectPages();
+        element.classList.add('selected');
+    })
+});

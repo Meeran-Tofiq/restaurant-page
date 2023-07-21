@@ -41,8 +41,12 @@ nav ul {
     padding: 0px;
 }
 
+nav li:hover{
+    cursor: pointer;
+}
+
 nav li.selected {
-    border-bottom: var(--light-orange);
+    border-bottom: 2px solid var(--light-orange);
 }
 
 .main {
@@ -81,7 +85,7 @@ nav li.selected {
 }
 
 .img-container img {
-    height: 91.2vh;
+    height: 94vh;
     width: 100vw;
 }
 
