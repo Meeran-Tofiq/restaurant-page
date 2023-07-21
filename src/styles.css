@@ -1,5 +1,5 @@
 :root {
-    --brown: #4A2C2C;
+    --brown: #482316;
     --light-brown: #9A4D00;
     --orange: #CE5501;
     --light-orange: #FF9205;
@@ -73,7 +73,7 @@ nav li.selected {
 
     background-color: var(--brown);
     border: 5px solid var(--light-yellow);
-    color: var(--light-yellow);
+    color: white;
     font-size: x-large;
 
     box-shadow: 0.5rem 0.5rem var(--light-yellow);
