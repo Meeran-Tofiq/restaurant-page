@@ -23,6 +23,26 @@ header {
 
     display: grid;
     grid-template: 1fr / 1fr 3fr 1fr;
+
+    background-color: var(--brown);
+    color: white;
+    font-size: large;
+}
+
+nav {
+    grid-column: 2;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+nav li.selected {
+    border-bottom: var(--light-orange);
 }
 
 .main {
