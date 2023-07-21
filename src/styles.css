@@ -35,13 +35,42 @@ header {
 
 .img-container {
     grid-column: 1;
+    position: relative;
+}
+
+.img-container .info {
+    position: absolute;
+    right: 3rem;
+    left: 50rem;
+    top: 10rem;
+
+    margin: 0rem;
+    padding: 2rem;
+
+    background-color: var(--brown);
+    border: 5px solid var(--light-yellow);
+    color: var(--light-yellow);
+    font-size: x-large;
+
+    box-shadow: 0.5rem 0.5rem var(--light-yellow);
+}
+
+.info h3 {
+    color: var(--yellow);
+    margin: 0px;
+}
+
+.img-container img {
+    height: 91.2vh;
+    width: 100vw;
 }
 
 .img-container .credits {
     position: absolute;
-    bottom: 8px;
+    bottom: 1rem;
     color: white;
     text-align: center;
+    width: 100%;
 }
 
 .credits a {
