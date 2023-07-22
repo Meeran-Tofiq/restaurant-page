@@ -49,6 +49,8 @@ nav li.selected {
     border-bottom: 2px solid var(--light-orange);
 }
 
+/* Home page */
+
 .main {
     grid-row: 2;
 
@@ -79,8 +81,11 @@ nav li.selected {
     box-shadow: 0.5rem 0.5rem var(--light-yellow);
 }
 
-.info h3 {
+h3 {
     color: var(--yellow);
+}
+
+.info h3 {
     margin: 0px;
 }
 
@@ -113,7 +118,7 @@ nav li.selected {
     height: 90vh;
 
     display: grid;
-    grid-template: auto / 1fr;
+    grid-template: 5rem auto / 1fr;
     gap: 2rem;
     background-color: var(--light-orange);
     color: var(--brown);
@@ -122,18 +127,20 @@ nav li.selected {
 .recipes .head,
 .recipes .coming-soon {
     text-align: center;
+    margin-bottom: 0;
 }
 
 .recipes .recipe {
     display: flex;
     gap: 2rem;
     padding-right: 1rem;
-
-    background-color: white;
+    
+    background-color: var(--brown);
     border: 2px solid var(--light-brown);
     border-radius: 3rem;
     max-height: 20rem;
     box-shadow: 0.2rem 0.2rem var(--light-brown);
+    color: var(--light-orange);
 }
 
 .recipe img {
