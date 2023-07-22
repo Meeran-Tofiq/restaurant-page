@@ -1,4 +1,5 @@
 import loadHomePage from "./load.home";
+import loadRecipesPage from "./load.recipes";
 import './styles.css';
 
 loadHomePage();
@@ -23,3 +24,6 @@ navList.forEach(element => {
         element.classList.add('selected');
     })
 });
+
+homeB.addEventListener('click', loadHomePage);
+recipesB.addEventListener('click', loadRecipesPage);
