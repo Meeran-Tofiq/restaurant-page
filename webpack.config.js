@@ -6,7 +6,6 @@ module.exports = {
     mode: 'development',
     entry: {
         index: './src/index.js',
-        load_home: './src/load.home.js',
     },
     devtool: 'inline-source-map',
     plugins: [
