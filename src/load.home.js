@@ -57,7 +57,11 @@ function loadHomePage() {
     content.appendChild(header);
     content.appendChild(mainDiv);
 
-    document.body.append(content);
+    if(document.body.children.length !== 0) {
+        document.querySelector('.main').replaceWith(mainDiv);
+    } else {
+        document.body.append(content);
+    }
 }
 
 export default loadHomePage;
