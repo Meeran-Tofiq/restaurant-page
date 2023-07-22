@@ -104,3 +104,42 @@ nav li.selected {
 .info {
     grid-column: 2;
 }
+
+/* Recipes page styling */
+
+.main.recipes {
+    padding: 2rem 30%;
+    grid-row: 2;
+    height: 90vh;
+
+    display: grid;
+    grid-template: auto / 1fr;
+    gap: 2rem;
+    background-color: var(--light-orange);
+    color: var(--brown);
+}
+
+.recipes .head,
+.recipes .coming-soon {
+    text-align: center;
+}
+
+.recipes .recipe {
+    display: flex;
+    gap: 2rem;
+    padding-right: 1rem;
+
+    background-color: white;
+    border: 2px solid var(--light-brown);
+    border-radius: 3rem;
+    max-height: 20rem;
+    box-shadow: 0.2rem 0.2rem var(--light-brown);
+}
+
+.recipe img {
+    max-height: 100%;
+    max-width: 30%;
+    border-radius: 3rem 0 0 3rem;
+    object-fit: cover;
+    object-position: 25% 50%;
+}
