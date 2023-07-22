@@ -1,3 +1,6 @@
+import chickenImg from './img/grilled-chicken.jpg';
+import burgerImg from './img/grilled-patty.jpg';
+
 function loadRecipesPage() {
     const mainDiv = document.createElement('div');
     const recipesBold = document.createElement('h1');
@@ -18,13 +21,13 @@ function loadRecipesPage() {
     recipesBold.innerText = "Recipes";
     
     const chickenImage = document.createElement('img');
-    chickenImage.setAttribute('src', '../src/img/grilled-chicken.jpg');
+    chickenImage.setAttribute('src', chickenImage);
     chickenImage.setAttribute('alt', 'Photo of a grilled chicken meal. Taken by Sam Moghadam Khamesh.');
     chickenRInfo.innerHTML = "<h3>Lorem Ipsum es simplemente el texto de relleno</h3>" + 
     "de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)";
     
     const burgerImage = document.createElement('img');
-    burgerImage.setAttribute('src', '../src/img/grilled-patty.jpg');
+    burgerImage.setAttribute('src', burgerImage);
     burgerImage.setAttribute('alt', 'Photo of a grilled burger patty. Taken by Norbert Braun.');
     burgerRInfo.innerHTML = "<h3>Lorem Ipsum es simplemente el texto de relleno</h3>" + 
     "de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)";

@@ -1,3 +1,5 @@
+import image from  './img/grill.jpg';
+
 function loadHomePage() {
     const content = document.createElement('div');
     content.classList.add("content");
@@ -25,7 +27,7 @@ function loadHomePage() {
     settings.setAttribute("class", "settings");
     mainDiv.setAttribute("class", "main");
     imgContainerDiv.setAttribute("class", "img-container");
-    imgGrill.setAttribute("src", "../src/img/grill.jpg");
+    imgGrill.setAttribute("src", image);
     imgGrill.setAttribute("alt", "Picture of a grill, with a lot of grilled food on top of it. Taken by Evan Wise.");
     imgCredits.setAttribute("class", "credits");
     infoDiv.setAttribute("class", "info");
