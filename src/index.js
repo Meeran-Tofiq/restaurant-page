@@ -1,5 +1,6 @@
 import loadHomePage from "./load.home";
 import loadRecipesPage from "./load.recipes";
+import loadAboutPage from "./load.about";
 import './styles.css';
 
 loadHomePage();
@@ -27,3 +28,4 @@ navList.forEach(element => {
 
 homeB.addEventListener('click', loadHomePage);
 recipesB.addEventListener('click', loadRecipesPage);
+aboutB.addEventListener('click', loadAboutPage);
