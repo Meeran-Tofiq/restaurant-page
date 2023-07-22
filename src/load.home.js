@@ -26,7 +26,7 @@ function loadHomePage() {
     mainDiv.setAttribute("class", "main");
     imgContainerDiv.setAttribute("class", "img-container");
     imgGrill.setAttribute("src", "../src/img/grill.jpg");
-    imgGrill.setAttribute("alt", "Picture of a grill, with a lot of grilled food on top of it.");
+    imgGrill.setAttribute("alt", "Picture of a grill, with a lot of grilled food on top of it. Taken by Evan Wise.");
     imgCredits.setAttribute("class", "credits");
     infoDiv.setAttribute("class", "info");
 
